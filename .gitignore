@@ -1,0 +1,31 @@
+# STANDARD IGNORES BELOW
+
+#------------------------------------------
+# python related files
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# virtualenv
+.venv/
+venv/
+ENV/
+
+# wingide
+*.wpr
+*.wpu
+
+#------------------------------------------
+# c related files
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf

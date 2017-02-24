@@ -1,0 +1,9 @@
+FROM http://www.garykessler.net/library/file_sigs.html
+
+ACKNOWLEDGEMENTS
+
+The following individuals have given me updates or suggestions for this list over the years: Devon Ackerman, Nazim Aliyev, Vladimir Benko, Arvin Bhatnagar, Jim Blackson, Sam Brothers, David Burton, Alex Caithness, Erik Campeau, Björn Carlin, Tim Carver, Per Christensson, Oscar Choi, JMJ.Conseil, Cornelis de Groot, Jeffrey Duggan, Tony Duncan, Jean-Pierre Fiset, Peter Almer Frederiksen, Tim Gardner, Chris Griffith, Linda Grody, Andis Grosšteins, Paulo Guzmán, Rich Hanes, George Harpur, Brian High, Eric Huber, Broadus Jones, Matthew Kelly, Axel Kesseler, Nick Khor, Art Kocsis, Bill Kuhns, Andreas Kyrmegalos, Jeremy Lloyd, Anand Mani, Kevin Mansell, Davyd McColl, Par Osterberg Medina, Michal, David Millard, Bruce Modick, Lee Nelson, Mart Oskamp, Dan P., Jorge Paulhiac, Carlo Politi, Stanley Rainey, Cory Redfern, Bruce Robertson, Thomas Rösner, Anli Shundi, Erik Siers, Mike Sutton, Matthias Sweertvaegher, Frank Thornton, Erik van de Burgwal, Øyvind Walding, Jason Wallace, Daniel Walton, Franklin Webber, Douglas White, Mike Wilkinson, Gavin Williams, David Wright, and Shaul Zevin. I thank them and apologize if I have missed anyone.
+
+I would like to give particular thanks to Danny Mares of Mares and Company, author of the MaresWare Suite (primarily for the "subheaders" for many of the file types here), and the people at X-Ways Forensics for their permission to incorporate their lists of file signatures.
+
+Finally, Dr. Nicole Beebe from The University of Texas at San Antonio posted samples of more than 32 file types at the Digital Corpora, which I used for verification and additional signatures. These files were used to develop the Sceadan File Type Classifier. The file samples can be downloaded from the Digital Corpora website.
