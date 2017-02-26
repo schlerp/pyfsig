@@ -7,9 +7,9 @@ def readme():
         return f.read()
 
 setup(name='pyfsig',
-      version='0.4',
+      version='0.6',
       description='A python library for identifying files by headers (magic bytes)',
-      log_description=readme(),
+      long_description=readme(),
       author='schlerp',
       author_email='schlerpderpson@gmail.com',
       url='https://github.com/schlerp/pyfsig',

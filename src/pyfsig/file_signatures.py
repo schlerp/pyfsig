@@ -12,7 +12,7 @@ file header signatures
 # 
 # This Library uses material from the Wikipedia article 
 # https://en.wikipedia.org/wiki/List_of_file_signatures, which is released 
-# under the Creative Commons Attribution-Share-Alike License 3.0</a>.
+# under the Creative Commons Attribution-Share-Alike License 3.0
 
 
 signatures = [{'ascii': '....',

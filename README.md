@@ -17,7 +17,7 @@ with open(f_name, "rb") as f:
 herp = get_from_path(f_name)
 
 # this can be a string or a bytestring, will raise exception if no matching headers found.
-Signature(header="%PDF")
+Matches(header="%PDF")
 ```
 
 ## file_signatures.compare(header, test_hex_string)
@@ -147,7 +147,7 @@ example:
 # 
 # This Library uses material from the Wikipedia article 
 # https://en.wikipedia.org/wiki/List_of_file_signatures, which is released 
-# under the Creative Commons Attribution-Share-Alike License 3.0</a>.
+# under the Creative Commons Attribution-Share-Alike License 3.0
 
 
 signatures = [{'ascii': '....',
