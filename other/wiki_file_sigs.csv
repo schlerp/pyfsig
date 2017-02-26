@@ -1,0 +1,196 @@
+file_extension,description,offset,ascii,hex
+rpm,RedHat Package Manager (RPM) package,0,....,ed ab ee db
+bin,Amazon Kindle Update Package,0,SP01,53 50 30 31
+PIF,WindowsProgram Information File,0,.,00 nn
+SEA,MacStuffit Self-Extracting Archive,0,.,00 nn
+YTR,IRISOCR data file,0,.,00 nn
+PIC,IBM Storyboard bitmap file,0,.,00 nn
+PDB,PalmPilot Database/Document File,11,........ ........ ........,00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+DBA,Palm Desktop Calendar Archive,0,...,BE BA FE CA
+DBA,Palm Desktop To Do Archive,0,..BD,00 01 42 44
+TDA,Palm Desktop Calendar Archive,0,..DT,00 01 44 54
+,Palm Desktop Data File (Access format),0,...,00 01 00 00
+ico,Computer icon encoded inICO file format,0,....,00 00 01 00
+3gp,3rd Generation Partnership Project3GPP,4,ftyp 3g,66 74 79 70 33 67
+3g2,3GPP2 multimedia files,4,ftyp 3g,66 74 79 70 33 67
+z,compressed file (often tar zip),0,..,1F 9D
+tar.z,usingLempel-Ziv-Welch algorithm,0,..,1F 9D
+z,Compressed file (often tar zip),0,..,1F A0
+tar.z,usingLZH algorithm,0,..,1F A0
+bac,File ortape containing abackup done withAmiBack on an Amiga. It typically is paired with an index file (idx) with the table of contents.,0,BACKMIKE DISK,42 41 43 4B 4D 49 4B 45 44 49 53 4B
+bz2,Compressed file usingBzip2 algorithm,0,BZh,42 5A 68
+gif,Image file encoded in theGraphics Interchange Format (GIF),0,GIF87aGIF89a,47 49 46 38 37 61 47 49 46 38 39 61
+tif,Tagged Image File Format (little endian format),0,II*.MM.*,49 49 2A 00
+tiff,Tagged Image File Format (little endian format),0,II*.MM.*,49 49 2A 00
+tif,Tagged Image File Format (big endian format),0,II*.MM.*,4D 4D 00 2A
+tiff,Tagged Image File Format (big endian format),0,II*.MM.*,4D 4D 00 2A
+cr2,Canon's RAW format is based on the TIFF file format,0,II*..... CR,49 49 2A 00 10 00 00 00 43 52
+cr2,Canon RAW Format Version 2,0,II*..... CR,49 49 2A 00 10 00 00 00 43 52
+cin,KodakCineon image,0,.*_.,80 2A 5F D7
+,Compressed file usingRob Northen Compression (version 1 and 2) algorithm,0,RNC.,52 4E 43 0152 4E 43 02
+dpx,SMPTEDPX image (big endian format),0,SDPXXPDS,53 44 50 58
+dpx,SMPTEDPX image (little endian format),0,SDPXXPDS,58 50 44 53
+exr,OpenEXR image,0,v/1.,76 2F 31 01
+bpg,Better Portable Graphics format,0,BPGû,42 50 47 FB
+jpg,JPEG raw or in theJFIF orExif file format,0,ÿØÿÛ,FF D8 FF DB
+jpeg,JPEG raw or in theJFIF orExif file format,0,ÿØÿÛ,FF D8 FF DB
+jpg,JPEG raw or in theJFIF orExif file format,0,ÿØÿà ..J F IF..,FF D8 FF E0 nn nn 4A 46 49 46 00 01
+jpeg,JPEG raw or in theJFIF orExif file format,0,ÿØÿà ..J F IF..,FF D8 FF E0 nn nn 4A 46 49 46 00 01
+jpg,JPEG raw or in theJFIF orExif file format,0,ÿØÿá ..E x if..,FF D8 FF E1 nn nn 45 78 69 66 00 00
+jpeg,JPEG raw or in theJFIF orExif file format,0,ÿØÿá ..E x if..,FF D8 FF E1 nn nn 45 78 69 66 00 00
+ilbm,IFFInterleaved Bitmap Image,any,FORM.... ILBM,46 4F 52 4D nn nn nn nn 49 4C 42 4D
+lbm,IFFInterleaved Bitmap Image,any,FORM.... ILBM,46 4F 52 4D nn nn nn nn 49 4C 42 4D
+ibm,IFFInterleaved Bitmap Image,any,FORM.... ILBM,46 4F 52 4D nn nn nn nn 49 4C 42 4D
+iff,IFFInterleaved Bitmap Image,any,FORM.... ILBM,46 4F 52 4D nn nn nn nn 49 4C 42 4D
+8svx,IFF8-Bit Sampled Voice,any,FORM.... 8SVX,46 4F 52 4D nn nn nn nn 38 53 56 58
+8sv,IFF8-Bit Sampled Voice,any,FORM.... 8SVX,46 4F 52 4D nn nn nn nn 38 53 56 58
+svx,IFF8-Bit Sampled Voice,any,FORM.... 8SVX,46 4F 52 4D nn nn nn nn 38 53 56 58
+snd,IFF8-Bit Sampled Voice,any,FORM.... 8SVX,46 4F 52 4D nn nn nn nn 38 53 56 58
+iff,IFF8-Bit Sampled Voice,any,FORM.... 8SVX,46 4F 52 4D nn nn nn nn 38 53 56 58
+acbm,Amiga Contiguous Bitmap,any,FORM.... ACBM,46 4F 52 4D nn nn nn nn 41 43 42 4D
+iff,Amiga Contiguous Bitmap,any,FORM.... ACBM,46 4F 52 4D nn nn nn nn 41 43 42 4D
+anbm,IFFAnimated Bitmap,any,FORM.... ANBM,46 4F 52 4D nn nn nn nn 41 4E 42 4D
+iff,IFFAnimated Bitmap,any,FORM.... ANBM,46 4F 52 4D nn nn nn nn 41 4E 42 4D
+anim,IFFCEL Animation,any,FORM.... ANIM,46 4F 52 4D nn nn nn nn  41 4E 49 4D
+iff,IFFCEL Animation,any,FORM.... ANIM,46 4F 52 4D nn nn nn nn  41 4E 49 4D
+faxx,IFFFacsimile Image,any,FORM.... FAXX,46 4F 52 4D nn nn nn nn 46 41 58 58
+faxx,IFFFacsimile Image,any,FORM.... FAXX,46 4F 52 4D nn nn nn nn 46 41 58 58
+iff,IFFFacsimile Image,any,FORM.... FAXX,46 4F 52 4D nn nn nn nn 46 41 58 58
+ftxt,IFFFormatted Text,any,FORM.... FTXT,46 4F 52 4D nn nn nn nn 46 54 58 54
+txt,IFFFormatted Text,any,FORM.... FTXT,46 4F 52 4D nn nn nn nn 46 54 58 54
+iff,IFFFormatted Text,any,FORM.... FTXT,46 4F 52 4D nn nn nn nn 46 54 58 54
+smus,IFFSimple Musical Score,any,FORM.... SMUS,46 4F 52 4D nn nn nn nn 53 4D 55 53
+smu,IFFSimple Musical Score,any,FORM.... SMUS,46 4F 52 4D nn nn nn nn 53 4D 55 53
+mus,IFFSimple Musical Score,any,FORM.... SMUS,46 4F 52 4D nn nn nn nn 53 4D 55 53
+iff,IFFSimple Musical Score,any,FORM.... SMUS,46 4F 52 4D nn nn nn nn 53 4D 55 53
+cmus,IFFMusical Score,any,FORM.... CMUS,46 4F 52 4D nn nn nn nn 43 4D 55 53
+mus,IFFMusical Score,any,FORM.... CMUS,46 4F 52 4D nn nn nn nn 43 4D 55 53
+iff,IFFMusical Score,any,FORM.... CMUS,46 4F 52 4D nn nn nn nn 43 4D 55 53
+yuvn,IFFYUV Image,any,FORM.... YUVN,46 4F 52 4D nn nn nn nn 59 55 56 4E
+yuv,IFFYUV Image,any,FORM.... YUVN,46 4F 52 4D nn nn nn nn 59 55 56 4E
+iff,IFFYUV Image,any,FORM.... YUVN,46 4F 52 4D nn nn nn nn 59 55 56 4E
+iff,AmigaFantavision Movie,any,FORM.... FANT,46 4F 52 4D nn nn nn nn 46 41 4E 54
+aiff,Audio Interchange File Format,any,FORM.... AIFF,46 4F 52 4D nn nn nn nn 41 49 46 46
+aif,Audio Interchange File Format,any,FORM.... AIFF,46 4F 52 4D nn nn nn nn 41 49 46 46
+aifc,Audio Interchange File Format,any,FORM.... AIFF,46 4F 52 4D nn nn nn nn 41 49 46 46
+snd,Audio Interchange File Format,any,FORM.... AIFF,46 4F 52 4D nn nn nn nn 41 49 46 46
+iff,Audio Interchange File Format,any,FORM.... AIFF,46 4F 52 4D nn nn nn nn 41 49 46 46
+idx,Index file to a file ortape containing abackup done withAmiBack on anAmiga.,0,INDX,49 4E 44 58
+lz,lzip compressed file,0,LZIP,4C 5A 49 50
+exe,DOS MZ executable file format and its descendants (includingNE andPE),0,MZ,4D 5A
+zip,"zip file format and formats based on it, such asJAR,ODF,OOXML",0,PK..,50 4B 03 04
+jar,"zip file format and formats based on it, such asJAR,ODF,OOXML",0,PK..,50 4B 03 04
+odt,"zip file format and formats based on it, such asJAR,ODF,OOXML",0,PK..,50 4B 03 04
+ods,"zip file format and formats based on it, such asJAR,ODF,OOXML",0,PK..,50 4B 03 04
+odp,"zip file format and formats based on it, such asJAR,ODF,OOXML",0,PK..,50 4B 03 04
+docx,"zip file format and formats based on it, such asJAR,ODF,OOXML",0,PK..,50 4B 03 04
+xlsx,"zip file format and formats based on it, such asJAR,ODF,OOXML",0,PK..,50 4B 03 04
+pptx,"zip file format and formats based on it, such asJAR,ODF,OOXML",0,PK..,50 4B 03 04
+vsdx,"zip file format and formats based on it, such asJAR,ODF,OOXML",0,PK..,50 4B 03 04
+apk,"zip file format and formats based on it, such asJAR,ODF,OOXML",0,PK..,50 4B 03 04
+zip,"zip file format and formats based on it, such asJAR,ODF,OOXML (empty archive)",0,PK..,50 4B 05 06
+jar,"zip file format and formats based on it, such asJAR,ODF,OOXML (empty archive)",0,PK..,50 4B 05 06
+odt,"zip file format and formats based on it, such asJAR,ODF,OOXML (empty archive)",0,PK..,50 4B 05 06
+ods,"zip file format and formats based on it, such asJAR,ODF,OOXML (empty archive)",0,PK..,50 4B 05 06
+odp,"zip file format and formats based on it, such asJAR,ODF,OOXML (empty archive)",0,PK..,50 4B 05 06
+docx,"zip file format and formats based on it, such asJAR,ODF,OOXML (empty archive)",0,PK..,50 4B 05 06
+xlsx,"zip file format and formats based on it, such asJAR,ODF,OOXML (empty archive)",0,PK..,50 4B 05 06
+pptx,"zip file format and formats based on it, such asJAR,ODF,OOXML (empty archive)",0,PK..,50 4B 05 06
+vsdx,"zip file format and formats based on it, such asJAR,ODF,OOXML (empty archive)",0,PK..,50 4B 05 06
+apk,"zip file format and formats based on it, such asJAR,ODF,OOXML (empty archive)",0,PK..,50 4B 05 06
+zip,"zip file format and formats based on it, such asJAR,ODF,OOXML (spanned archive)",0,PK..,50 4B 07 08
+jar,"zip file format and formats based on it, such asJAR,ODF,OOXML (spanned archive)",0,PK..,50 4B 07 08
+odt,"zip file format and formats based on it, such asJAR,ODF,OOXML (spanned archive)",0,PK..,50 4B 07 08
+ods,"zip file format and formats based on it, such asJAR,ODF,OOXML (spanned archive)",0,PK..,50 4B 07 08
+odp,"zip file format and formats based on it, such asJAR,ODF,OOXML (spanned archive)",0,PK..,50 4B 07 08
+docx,"zip file format and formats based on it, such asJAR,ODF,OOXML (spanned archive)",0,PK..,50 4B 07 08
+xlsx,"zip file format and formats based on it, such asJAR,ODF,OOXML (spanned archive)",0,PK..,50 4B 07 08
+pptx,"zip file format and formats based on it, such asJAR,ODF,OOXML (spanned archive)",0,PK..,50 4B 07 08
+vsdx,"zip file format and formats based on it, such asJAR,ODF,OOXML (spanned archive)",0,PK..,50 4B 07 08
+apk,"zip file format and formats based on it, such asJAR,ODF,OOXML (spanned archive)",0,PK..,50 4B 07 08
+rar,RAR archive version 1.50 onwards,0,Rar!...,52 61 72 21 1A 07 00
+rar,RAR archive version 5.0 onwards,0,Rar!....,52 61 72 21 1A 07 01 00
+,Executable and Linkable Format,0,.ELF,7F 45 4C 46
+png,Image encoded in thePortable Network Graphics format,0,.PNG....,89 50 4E 47 0D 0A 1A 0A
+class,"Java class file,Mach-O Fat Binary",0,Êþº¾,CA FE BA BE
+,"UTF-8 encodedUnicodebyte order mark, commonly seen in text files.",0,ï»¿,EF BB BF
+,Mach-O binary (32-bit),0,........,FE ED FA CE
+,Mach-O binary (32-bit),0x1000,........,FE ED FA CE
+,Mach-O binary (64-bit),0,........,FE ED FA CF
+,Mach-O binary (64-bit),0x1000,........,FE ED FA CF
+,"Mach-O binary (reverse byte ordering scheme, 32-bit)",0,........,CE FA ED FE
+,"Mach-O binary (reverse byte ordering scheme, 64-bit)",0,........,CF FA ED FE
+,Byte-order mark for text file encoded inlittle-endian16-bit Unicode Transfer Format,0,..,FF FE
+,Byte-order mark for text file encoded in little-endian32-bit Unicode Transfer Format,0,....,FF FE 00 00
+ps,PostScript document,0,%!PS,25 21 50 53
+pdf,PDF document,0,%PDF,25 50 44 46
+asf,Advanced Systems Format,0,0&²u.fÏ .¦Ù.ª.bÎl,30 26 B2 75 8E 66 CF 11 A6 D9 00 AA 00 62 CE 6C
+wma,Advanced Systems Format,0,0&²u.fÏ .¦Ù.ª.bÎl,30 26 B2 75 8E 66 CF 11 A6 D9 00 AA 00 62 CE 6C
+wmv,Advanced Systems Format,0,0&²u.fÏ .¦Ù.ª.bÎl,30 26 B2 75 8E 66 CF 11 A6 D9 00 AA 00 62 CE 6C
+,"System Deployment Image, a disk image format used byMicrosoft",0,$SDI0001,24 53 44 49 30 30 30 31
+ogg,"Ogg, anopen source media container format",0,OggS,4F 67 67 53
+oga,"Ogg, anopen source media container format",0,OggS,4F 67 67 53
+ogv,"Ogg, anopen source media container format",0,OggS,4F 67 67 53
+psd,"Photoshop Document file,Adobe Photoshop's native file format",0,8BPS,38 42 50 53
+wav,Waveform Audio File Format,0,RIFF.... WAVE,52 49 46 46 nn nn nn nn 57 41 56 45
+avi,Audio Video Interleave video format,0,RIFF.... AVI.,52 49 46 46 nn nn nn nn  41 56 49 20
+mp3,MPEG-1 Layer 3 file without anID3 tag or with anID3v1 tag (which's appended at the end of the file),0,ÿû,FF FB
+mp3,MP3 file with an ID3v2 container,0,ID3,49 44 33
+bmp,"BMP file, abitmap format used mostly in theWindows world",0,BM,42 4D
+dib,"BMP file, abitmap format used mostly in theWindows world",0,BM,42 4D
+bmp,"BMP file, abitmap format used mostly in theWindows world",0,BM,42 4D
+dib,"BMP file, abitmap format used mostly in theWindows world",0,BM,42 4D
+iso,ISO9660 CD/DVD image file,0x8001,CD001,43 44 30 30 31
+iso,ISO9660 CD/DVD image file,0x8801,CD001,43 44 30 30 31
+iso,ISO9660 CD/DVD image file,0x9001,CD001,43 44 30 30 31
+fits,Flexible Image Transport System (FITS),0,SIMPLE   =         T,53 49 4D 50 4C 45 20 203D 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 54
+flac,Free Lossless Audio Codec,0,fLaC,66 4C 61 43
+mid,MIDI sound file,0,MThd,4D 54 68 64
+midi,MIDI sound file,0,MThd,4D 54 68 64
+doc,"Compound File Binary Format, a container format used for document by older versions ofMicrosoft Office.It is however an open format used by other programs as well.",,,D0 CF 11 E0 A1 B1 1A E1
+xls,"Compound File Binary Format, a container format used for document by older versions ofMicrosoft Office.It is however an open format used by other programs as well.",,,D0 CF 11 E0 A1 B1 1A E1
+ppt,"Compound File Binary Format, a container format used for document by older versions ofMicrosoft Office.It is however an open format used by other programs as well.",,,D0 CF 11 E0 A1 B1 1A E1
+msg,"Compound File Binary Format, a container format used for document by older versions ofMicrosoft Office.It is however an open format used by other programs as well.",,,D0 CF 11 E0 A1 B1 1A E1
+dex,Dalvik Executable,0,dex.035.,64 65 78 0A 30 33 35 00
+vmdk,VMDK files,0,KDM,4B 44 4D
+crx,Google Chrome extensionor packaged app,0,Cr24,43 72 32 34
+fh8,FreeHand 8 document,0,AGD3,41 47 44 33
+cwk,AppleWorks 5 document,0,....BOBO ........ ....,05 07 00 00 42 4F 42 4F 05 07 00 00 00 00 00 00 00 00 00 00 00 01
+cwk,AppleWorks 6 document,0,....BOBO ........ ....,06 07 E1 00 42 4F 42 4F 06 07 E1 00 00 00 00 00 00 00 00 00 00 01
+toast,"RoxioToast disc image file, also some .dmg-files begin with same bytes",0,ER....ãER....,45 52 02 00 00 00 8B 45 52 02 00 00 00
+dmg,Apple Disk Image file,0,x.s.bb`,78 01 73 0D 62 62 60
+xar,eXtensible Archive format,0,xar!,78 61 72 21
+dat,"Windows Files And Settings Transfer Repository, See also USMT 3.0 (Win XP) and USMT 4.0 (Win 7) User Guides",0,PMOCCMOC,50 4D 4F 43 43 4D 4F 43
+nes,Nintendo Entertainment System ROM file,0,NES,4E 45 53 1A
+tar,tar archive,0x101,ustar.00ustar  .,75 73 74 61 72 00 30 3075 73 74 61 72 20 20 00
+tox,Open source portable voxel file,0,TOX,74 6F 78 33
+MLV,Magic Lantern Video file,0,MLVI,4D 4C 56 49
+,Windows UpdateBinary Delta Compression,0,DCM PA30,44 43 4D 01 50 41 33 30
+7z,7-Zip File Format,0,7z¼¯',37 7A BC AF 27 1C
+gz,GZIP,0,..,1F 8B
+tar.gz,GZIP,0,..,1F 8B
+lz4,"LZ4 Frame Format, LZ4 block format does not offer any magic bytes.",0,".""M.",04 22 4D 18
+cab,Microsoft Cabinet file,0,MSCF,4D 53 43 46
+flif,Free Lossless Image Format,0,FLIF,46 4C 49 46
+mkv,"Matroska media container, includingWebM",0,.Eß£,1A 45 DF A3
+mka,"Matroska media container, includingWebM",0,.Eß£,1A 45 DF A3
+mks,"Matroska media container, includingWebM",0,.Eß£,1A 45 DF A3
+mk3d,"Matroska media container, includingWebM",0,.Eß£,1A 45 DF A3
+webm,"Matroska media container, includingWebM",0,.Eß£,1A 45 DF A3
+stg,"""SEAN : Session Analysis"" Training file. Also used in compatible software ""Rpw :Rowperfect for Windows"" and ""RP3W : ROWPERFECT3 for Windows"".",0,MIL,4D 49 4C 20
+"['djvu', 'djv']",DjVu document. The following byte is either55 (U) for single-page or4D (M) for multi-page documents.,0,AT&TFORM....DJV,41 54 26 54 46 4F 52 4D nn nn nn nn 44 4A 56
+djvu,DjVu document. The following byte is either55 (U) for single-page or4D (M) for multi-page documents.,0,AT&TFORM....DJV,41 54 26 54 46 4F 52 4D nn nn nn nn 44 4A 56
+djv,DjVu document. The following byte is either55 (U) for single-page or4D (M) for multi-page documents.,0,AT&TFORM....DJV,41 54 26 54 46 4F 52 4D nn nn nn nn 44 4A 56
+der,DER encoded X.509 certificate,0,0.,30 82
+dcm,DICOM Medical File Format,0x80,DICM,44 49 43 4D
+woff,WOFF File Format 1.0,0,wOFF,77 4F 46 46
+woff2,WOFF File Format 2.0,0,wOF2,77 4F 46 32
+XML,eXtensible Markup Language when using theASCII character encoding,0,<?xml,3c 3f 78 6d 6c 20
+wasm,WebAssembly binary format,0,\0asm,6d 73 61 00
+lep,Lepton compressed JPEG image,0,,cf 84 01
+swf,flash .swf,0,CWS,43 57 53
+swf,flash .swf,0,EWS,46 57 53
+deb,linux deb file,0,!<arch>.,21 3C 61 72 63 68 3E
+webp,Google WebP image file,0,RIFF....,52 49 46 46 nn nn nn nn
+,,,WEBP,57 45 42 50
+,U-Boot / uImage.Das_U-Boot Universal Boot Loader.,0,'..V,27 05 19 56
