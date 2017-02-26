@@ -6,6 +6,19 @@ based on info from: ['Wikipedia - List of file signatures'](https://en.wikipedia
 
 Still alpha, but code should be easy enough to follow and expand upon.
 
+Example use:
+
+```python
+# returns a Match object (list of signatures) that match the file 'f'
+with open(f_name, "rb") as f:
+    derp = get_from_file(f)
+
+# returns Match object (list of signatures) that match the file at this file path
+herp = get_from_path(f_name)
+
+# this can be a string or a bytestring, will raise exception if no matching headers found.
+Signature(header="%PDF")
+```
 
 ## file_signatures.compare(header, test_hex_string)
 
