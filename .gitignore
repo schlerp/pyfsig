@@ -1,9 +1,10 @@
 # other filder
 other/
 
-# build folder
+# setup files
 build/
 dist/
+README
 
 # STANDARD IGNORES BELOW
 
