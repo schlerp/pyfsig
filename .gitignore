@@ -3,6 +3,7 @@ other/
 
 # build folder
 build/
+dist/
 
 # STANDARD IGNORES BELOW
 
