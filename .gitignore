@@ -1,6 +1,9 @@
 # other filder
 other/
 
+# build folder
+build/
+
 # STANDARD IGNORES BELOW
 
 #------------------------------------------
