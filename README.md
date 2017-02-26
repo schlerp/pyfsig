@@ -7,7 +7,7 @@ based on info from: ['Wikipedia - List of file signatures'](https://en.wikipedia
 Still alpha, but code should be easy enough to follow and expand upon.
 
 
-## `file_signatures.compare(header, test_hex_string)`
+## file_signatures.compare(header, test_hex_string)
 
 A method that compares a two file headers, the first one directly read from a file, the second is a a string containing space delimited hexidecimal byte codes. its a string becuase 'nn' is used to represent a wildcard byte.
 
@@ -38,7 +38,7 @@ test_hex_string = "25 50 nn nn 44 46"
 ```
 
 
-## `get_from_file(f, max_header=32)`
+## get_from_file(f, max_header=32)
 
 Return a Match object of all the matching Signatures for this file
 
@@ -53,7 +53,7 @@ Return a Match object of all the matching Signatures for this file
 This is the length in bytes read from the start of the file used as the file header.
 
 
-## `get_from_path(path, max_header=32)`
+## get_from_path(path, max_header=32)
 
 Return a Match object of all the matching signatures for this file, using the path rather than a file object now.
 
@@ -66,7 +66,7 @@ Return a Match object of all the matching signatures for this file, using the pa
 This is the length in bytes read from the start of the file used as the file header.
 
 
-## `file_signatures.Signature`
+## file_signatures.Signature
 
 A class that reimplements a dictionary. These are initialised and returned as part of the Match class when a Byte signature is tested using the `file_signatures.compare()` function.
 
@@ -99,7 +99,7 @@ test_hex_string = "25 50 44 46"
 (see above test_hex_string)
 
 
-## `file_signatures.Match`
+## file_signatures.Match
 
 This is a list reimplemented, it is returned by get_from_file and get_from_path defs. It holds a list Signature objects.
 
