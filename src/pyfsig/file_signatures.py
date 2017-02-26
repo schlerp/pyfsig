@@ -48,7 +48,7 @@ signatures = [{'ascii': '....',
               {'ascii': '........ ........ ........',
                'description': 'PalmPilot Database/Document File',
                'file_extension': 'PDB',
-               'hex': '00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 '
+               'hex': '00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00'
                '00',
                       'offset': '11'},
               {'ascii': '...',
@@ -768,7 +768,7 @@ signatures = [{'ascii': '....',
               {'ascii': 'SIMPLE   =         T',
                'description': 'Flexible Image Transport System (FITS)',
                'file_extension': 'fits',
-               'hex': '53 49 4D 50 4C 45 20 20 3D 20 20 20 20 20 20 20 20 20 20 20 20 20 20 '
+               'hex': '53 49 4D 50 4C 45 20 20 3D 20 20 20 20 20 20 20 20 20 20 20 20 20 20'
                '20 20 20 20 20 20 54',
                       'offset': '0'},
               {'ascii': 'fLaC',
@@ -1059,12 +1059,12 @@ def compare_sig(file_header, test_hex_string):
     return True
 
 
-def get_from_file(f, max_header=16):
+def get_from_file(f, max_header=32):
     header = f.read(16)
     return Matches(header=header)
 
 
-def get_from_path(path, max_header=16):
+def get_from_path(path, max_header=32):
     with open(path, "rb") as f:
         header = f.read(max_header)
     return Matches(header=header)
@@ -1102,20 +1102,3 @@ class Signature(dict):
     def __init__(self, signature, *arg, **kw):
         super(Signature, self).__init__(*arg, **kw)
         self.__dict__ = signature
-
-
-if __name__ == "__main__":
-
-    max_header = 16
-    
-    f_name = "/home/schlerp/Downloads/roflbalt-master.zip"
-    
-    #with open(f_name, "rb") as f:
-        #derp = get_from_file(f)
-        
-    herp = get_from_path(f_name)
-    
-    for item in herp:
-        print(item)
-    
-    #Signature(header="abcd")
