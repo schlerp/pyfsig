@@ -3,8 +3,8 @@
 from distutils.core import setup
 
 setup(name='pyfsig',
-      version='0.1',
-      description='File signatures and tools to help work out the type of file from the magic bytes (file header).',
+      version='0.2',
+      description='A python library for identifying files by headers (magic bytes)',
       author='schlerp',
       author_email='schlerpderpson@gmail.com',
       url='https://github.com/schlerp/pyfsig',
