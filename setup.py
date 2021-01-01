@@ -3,7 +3,7 @@
 from distutils.core import setup
 
 def readme():
-    with open('README.md') as f:
+    with open('README.md', encoding='UTF8') as f:
         return f.read()
 
 setup(name='pyfsig',
