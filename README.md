@@ -1,10 +1,13 @@
 # pyfsig
 
-A python library for identifying files by headers (magic bytes)
+A python library for identifying files by headers (magic bytes).
 
 based on info from: ['Wikipedia - List of file signatures'](https://en.wikipedia.org/wiki/List_of_file_signatures)
 
 Still alpha, but code should be easy enough to follow and expand upon.
+
+Thanks to all contributors!!
+![GitHub Contributors Image](https://contrib.rocks/image?repo=schlerp/pyfsig)
 
 Example use:
 
