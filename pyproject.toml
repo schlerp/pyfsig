@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pyfsig"
+version = "0.7.0"
+description = "A library for identifying files form their magic byte signature."
+authors = ["schlerp <schlerpderpson@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.group.dev.dependencies]
+build = "^0.10.0"
+twine = "^4.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
