@@ -1488,10 +1488,13 @@ def compare_sig(file_header, signature) -> bool:
             test_hex.append(None)
 
     for _loc, _byte in enumerate(test_hex):
-        offset = int(signature["offset"] or "0", 0)
+        if signature["offset"] == "any":
+            # any offset not supported yet
+            continue
         if _byte is None:
             continue
-        if _byte != file_header[_loc + offset]:
+        offset = int(signature["offset"] or "0", 0) + _loc
+        if len(file_header) <= offset or _byte != file_header[_loc + offset]:
             return False
     return True
 
