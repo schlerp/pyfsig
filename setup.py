@@ -7,7 +7,7 @@ def readme():
         return f.read()
 
 setup(name='pyfsig',
-      version='0.6',
+      version='0.8.3',
       description='A python library for identifying files by headers (magic bytes)',
       long_description=readme(),
       author='schlerp',

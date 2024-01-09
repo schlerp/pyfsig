@@ -1460,7 +1460,7 @@ class Matches(list):
 
     def _set_from_sig(self, _header):
         for test_sig in signatures:
-            if compare_sig(_header, test_sig["hex"]):
+            if compare_sig(_header, test_sig):
                 self.append(test_sig)
 
     def _set_from_ext(self, _ext):
@@ -1477,20 +1477,21 @@ class Signature(dict):
         self.__dict__ = signature
 
 
-def compare_sig(file_header, test_hex_string) -> bool:
+def compare_sig(file_header, signature) -> bool:
     file_header = list(file_header)
 
     test_hex: List[Optional[int]] = []
-    for _byte in test_hex_string.strip().split(" "):
+    for _byte in signature["hex"].strip().split(" "):
         if _byte != "nn":
             test_hex.append(ord(bytes.fromhex(_byte)))
         else:
             test_hex.append(None)
 
     for _loc, _byte in enumerate(test_hex):
+        offset = int(signature["offset"] or "0", 0)
         if _byte is None:
             continue
-        if _byte != file_header[_loc]:
+        if _byte != file_header[_loc + offset]:
             return False
     return True
 
