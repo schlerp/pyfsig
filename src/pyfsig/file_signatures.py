@@ -1480,6 +1480,9 @@ class Signature(dict):
 def compare_sig(file_header, test_hex_string) -> bool:
     file_header = list(file_header)
 
+    if not file_header:
+        return False
+
     test_hex: List[Optional[int]] = []
     for _byte in test_hex_string.strip().split(" "):
         if _byte != "nn":
