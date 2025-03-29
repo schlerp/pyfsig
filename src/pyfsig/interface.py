@@ -1,4 +1,3 @@
-from typing import List, Optional, cast
 from dataclasses import dataclass
 from pyfsig.constants import SIGNATURES, FileSignatureDict
 
@@ -28,16 +27,18 @@ class FileSignature:
     """
 
     file_extension: str
-    hex: List[Optional[int]]
+    hex: list[int | None]
     offset: int
-    display_string: Optional[str] = None
-    description: Optional[str] = None
+    display_string: str | None = None
+    description: str | None = None
 
     def as_dict(self) -> FileSignatureDict:
-        ret_dict = {
+        ret_dict: FileSignatureDict = {
             "file_extension": self.file_extension,
             "hex": self.hex,
             "offset": self.offset,
+            "display_string": None,
+            "description": None,
         }
 
         if self.display_string is not None:
@@ -46,13 +47,11 @@ class FileSignature:
         if self.description is not None:
             ret_dict["description"] = self.description
 
-        ret_dict = cast(FileSignatureDict, ret_dict)
-
         return ret_dict
 
 
 def check_for_match(
-    file_header: bytes, test_hex_array: List[Optional[int]], offset: int
+    file_header: bytes, test_hex_array: list[int | None], offset: int
 ) -> bool:
     """Checks for a match between the file header and the test hex string"""
 
@@ -75,10 +74,10 @@ def check_for_match(
 
 
 def find_matches_for_file_header(
-    file_header: bytes, signatures: List[FileSignatureDict] = SIGNATURES
-) -> List[FileSignature]:
+    file_header: bytes, signatures: list[FileSignatureDict] = SIGNATURES
+) -> list[FileSignature]:
     """Finds the file signatures that match the provided file header."""
-    matches = []
+    matches: list[FileSignature] = []
     for test_sig in signatures:
         if check_for_match(
             file_header=file_header,
@@ -90,8 +89,10 @@ def find_matches_for_file_header(
 
 
 def find_matches_for_file_path(
-    file_path: str, max_header=32, signatures: List[FileSignatureDict] = SIGNATURES
-) -> List[FileSignature]:
+    file_path: str,
+    max_header: int = 32,
+    signatures: list[FileSignatureDict] = SIGNATURES,
+) -> list[FileSignature]:
     """Finds the file signatures that match the file header of the provided file path."""
     with open(file_path, "rb") as f:
         file_header = f.read(max_header)

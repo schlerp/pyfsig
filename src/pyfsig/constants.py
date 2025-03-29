@@ -6,18 +6,18 @@
 # under the Creative Commons Attribution-Share-Alike License 3.0
 
 
-from typing import List, Optional, TypedDict
+from typing import TypedDict
 
 
 class FileSignatureDict(TypedDict):
-    display_string: Optional[str]
-    description: Optional[str]
+    display_string: str | None
+    description: str | None
     file_extension: str
-    hex: List[Optional[int]]
+    hex: list[int | None]
     offset: int
 
 
-SIGNATURES: List[FileSignatureDict] = [
+SIGNATURES: list[FileSignatureDict] = [
     {
         "display_string": "í«îÛ",
         "description": "RedHat Package Manager (RPM) package",
@@ -1150,15 +1150,14 @@ SIGNATURES: List[FileSignatureDict] = [
         "display_string": "ftypisom",
         "description": "ISO Base Media file (MPEG-4)",
         "file_extension": "mp4",
-        "hex": [0x66, 0x74, 0x79, 0x70, 0x69, 0x73, 0x6f, 0x6d],
+        "hex": [0x66, 0x74, 0x79, 0x70, 0x69, 0x73, 0x6F, 0x6D],
         "offset": 4,
     },
     {
         "display_string": "ftypMSNV",
         "description": "MPEG-4 video file",
         "file_extension": "mp4",
-        "hex": [0x66, 0x74, 0x79, 0x70, 0x4d, 0x53, 0x4e, 0x56],
+        "hex": [0x66, 0x74, 0x79, 0x70, 0x4D, 0x53, 0x4E, 0x56],
         "offset": 4,
-    }
+    },
 ]
-
