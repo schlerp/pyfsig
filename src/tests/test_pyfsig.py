@@ -1,4 +1,17 @@
+import hashlib
+import json
+
 import pyfsig
+
+def test_redundant_file_signatures():
+    hmap = {}
+
+    for signature in pyfsig.SIGNATURES:
+        hash = hashlib.md5(json.dumps(signature).encode("utf-8")).hexdigest()
+        if hash in hmap:
+            print(f"Found two colliding hashes ({hash}):\n{hmap[hash]} &\n{signature}")
+        else:
+            hmap[hash] = signature
 
 
 def test_known_file_header_matches():
@@ -30,3 +43,4 @@ def test_empty_file_header_doesnt_match():
     file_header = bytearray()
     matches = pyfsig.find_matches_for_file_header(file_header)
     assert not matches
+
